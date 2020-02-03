@@ -1,6 +1,16 @@
-\subsubsection{Site specifications}
+\subsubsection{Site and Borehole Heat Exchanger}
 	Need for geothermal district heating/cooling demand for potentially the entire campus. It is crucial to assess the possibilities of using deeper geothermal heat exchangers. 
-\subsubsection{Boreohle Heat Exchanger}
+	
+	The drilling of the well took place beginning August 8th, 2019. 
+	
+	The hydro-geological makeup of the well is 
+	\begin{figure}
+	\centering
+	\includegraphics[height=0.5\textwidth]{data/geology_cbhe.png}
+	\caption{Hydro-geological condition estimated through USGS survey immediately taken after the drilling of the well estimated at 1440 ft(438.9 m).}\label{fg:hydro}	
+	\end{figure}
+
+
 	
 \subsubsection{Experimental Setup}
 	To characterise the thermal potentials of boreholes, thermal response tests (TRTs) are often used when estimating the borehole resistances. Following the ASHARE guidelines, the inlet and outlet temperature at the borehole are recorded. The thermal conductivity of the borehole is the mean rate of temperature change over the natural logarithmic time of either the inlet or outlet temperature beyond the initial period of heat injection. The thermal conductivities are further used to estimate the borehole resistance and other parameters to evaluate potential borehole field designs. This method clearly does not provide enough information regarding the temperature evolution along the depth of borehole, i.e. the geothermal gradient situation of individual boreholes. Recent research have pointed out possibilities to use distributed TRTs that utilise fibre optic sensors that produces depth-specific temperature measurement along the borehole.  
@@ -15,8 +25,14 @@
 	\caption{Temperature measured at the inlet and outlet of the well site.}\label{fg:raw}
 	\end{figure}
 	
-	For the purpose of the conventional TRT the project procured, the data collected by the company performing the test first undergone the procedures of a conventional TRT calculation. The relatively steady slope shown in Figure~\ref{fg:raw} of both the inlet and outlet temperatures since the 10th hour of the operation can be used to determine the overall thermal conductivity of the borehole, and can be further expanded into the thermal diffusivity of the formation through an estimated heat capacity of the borehole. The overall borehole resistance may therefore be estimated through Equation. 
+	For the purpose of the conventional TRT the project procured, the data collected by the company performing the test first undergone the procedures of a conventional TRT calculation. The relatively steady slope shown in Figure~\ref{fg:raw} of both the inlet and outlet temperatures since the 10th hour of the operation can be used to determine the overall thermal conductivity of the borehole. This can be achieved by taking the natural log time rate of change of the temperature of either the inlet and the outlet, and can be further expanded into the thermal diffusivity of the formation through an estimated heat capacity of the borehole. The estimated heat capacity of the bore can be estimated through the geological conditions previously confirmed through drilling (as shown in Figure~\ref{fg:hydro}. 	
+	
+	The overall borehole resistance $R_b$ may therefore be estimated through Equation~\ref{eq:Rb}\cite{beier_situ_2012}.
 	
 	\begin{equation}
-		R_b = \frac{H}{Q}\{ T(t) - T_g -\frac{Q}{4\pi \lambda_g H} [E_i(\frac{r_b}{4 \alpha_g t})]   \}
+		R_b = \frac{H}{Q}\{ T(t) - T_g -\frac{Q}{4\pi \lambda_g H} [E_i(\frac{r_b}{4 \alpha_g t})]   \}\label{eq:Rb}
 	\end{equation}
+	
+	However, there are some inherent limitations of this method. First and foremost is the homogeneity assumption of the ground. The conventional method clearly assumes the ground to be at a homogeneous temperature along the depth of the heat exchanger, where the thermal conductivity, thermal diffusivity are also constants. However, as can be observed from Figure~\ref{fg:hydro} produced from the USGS measurement, it was clearly not the case. In particular, 
+	
+	
