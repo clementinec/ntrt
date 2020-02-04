@@ -1,16 +1,19 @@
+\subsection{Experiment}
+
 \subsubsection{Site and Borehole Heat Exchanger}
+	%District system, estimated total demand to be satisified.
 	Need for geothermal district heating/cooling demand for potentially the entire campus. It is crucial to assess the possibilities of using deeper geothermal heat exchangers. 
 	
-	The drilling of the well took place beginning August 8th, 2019. 
+	%drilling
+	The drilling of the well took place beginning August 8th, 2019. To characterize the formation layering at the drill site, a geological survey was performed immediately after the drilling. On top of the geological conditions shown in Figure~\ref{fg:hydro}, the tremmie 
 	
+	%Hydro-geological conditions.	
 	The hydro-geological makeup of the well is 
 	\begin{figure}
 	\centering
 	\includegraphics[height=0.5\textwidth]{data/geology_cbhe.png}
 	\caption{Hydro-geological condition estimated through USGS survey immediately taken after the drilling of the well estimated at 1440 ft(438.9 m).}\label{fg:hydro}	
 	\end{figure}
-
-
 	
 \subsubsection{Experimental Setup}
 	To characterise the thermal potentials of boreholes, thermal response tests (TRTs) are often used when estimating the borehole resistances. Following the ASHARE guidelines, the inlet and outlet temperature at the borehole are recorded. The thermal conductivity of the borehole is the mean rate of temperature change over the natural logarithmic time of either the inlet or outlet temperature beyond the initial period of heat injection. The thermal conductivities are further used to estimate the borehole resistance and other parameters to evaluate potential borehole field designs. This method clearly does not provide enough information regarding the temperature evolution along the depth of borehole, i.e. the geothermal gradient situation of individual boreholes. Recent research have pointed out possibilities to use distributed TRTs that utilise fibre optic sensors that produces depth-specific temperature measurement along the borehole.  
@@ -33,6 +36,7 @@
 		R_b = \frac{H}{Q}\{ T(t) - T_g -\frac{Q}{4\pi \lambda_g H} [E_i(\frac{r_b}{4 \alpha_g t})]   \}\label{eq:Rb}
 	\end{equation}
 	
-	However, there are some inherent limitations of this method. First and foremost is the homogeneity assumption of the ground. The conventional method clearly assumes the ground to be at a homogeneous temperature along the depth of the heat exchanger, where the thermal conductivity, thermal diffusivity are also constants. However, as can be observed from Figure~\ref{fg:hydro} produced from the USGS measurement, it was clearly not the case. In particular, 
+	However, there are some inherent limitations of this method. First and foremost is the homogeneity assumption of the ground. The conventional method clearly assumes the ground to be at a homogeneous temperature along the depth of the heat exchanger, where the thermal conductivity, thermal diffusivity are also constants. However, as can be observed from Figure~\ref{fg:hydro} produced from the USGS measurement, it was clearly not the case. In particular, the hard rock or quartz at the bottom of the borehole will likely lead to a much larger thermal conductivity of the borehole, allowing the working fluid to extract more heat at the same flow rate. Within the scope of this paper, we will continue to use a single thermal conductivity calculated from the thermal response test (and the time log temperature gradient thereof) at the top of the heat exchanger to continue our analysis. However, for future research, it is desirable to expand this into a more detailed DTRT study.
 	
+	%Determined resulting thermal conductivity, rest of parameters as a table. Do we also need the thermal conductivity plot? Somewhere on the drive already I think...	
 	
