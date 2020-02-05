@@ -1,2 +1,15 @@
-\section{Optimization}
-	As we have 
+\subsection{Room for improvement}
+	The proposed model, despite its relatively easier usage and customizability in contrast to existing libraries, has many constraints. A primary constraint is the lack of further customizability.
+	
+	It's also important to stress that this model only applies to estimation of borehole resistance measured at the in-situ TRT tests for borehole heat exchangers. This means only nearly-constant-injection-rate heat injection is considered. In addition, the flow rate and the flow direction also do not vary in our solve solution. Although it is not very common to change the flow rate or flow direction inside a CBHE, we may need to operate a CBHE more flexibly to achieve desirable temperature distribution along the DTS cable installed inside the CBHE.
+	
+	In order to achieve the temperature gradient as desirable as the one shown in the conceptual illustration in Figure~\ref{fg:hydro}, we need to optimize the temperature distribution and ultimately the temperature of the water coming back from the central tube. We believe it's important to also ackonwledge the importance of an analytical model that might help model the real-time temperature distribution upon heat injection/extraction for potential model predictive control algorithms. And despite lack of existing methods that allows us to do so, a combined analytical and numerical solution that stores the temperature distribution of both the water and the soil temperature from the last time step may be developed in subsequent study to evaluate these potential improvement upon the existing approach the BHEs. 
+	
+	  
+\subsection{Cost implications}
+	%Liu's existing paper on how to estimate the performance boost, discuss primarily the cost 
+	It's also important to consider the cost implications of drilling deeper despite the potential geothermal gradient. Kavanaugh and Rafferty (2014) pointed out that the relationship between adding insulation and increasing the depth of borehole heat exchanger. In the meantime, the cost of drilling is also a factor that could impact the design of BHEs. As the cost of drilling could consist of over 50\% of the overall cost when constructing new BHEs, it is crucial to understand the implications of suggesting drilling deeper and potentially larger borehole heat exchangers.
+\subsection{Room for further investigations}
+	%DTRT
+	
+	

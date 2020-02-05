@@ -1,0 +1,22 @@
+\begin{thebibliography}{1}
+\expandafter\ifx\csname url\endcsname\relax
+  \def\url#1{\texttt{#1}}\fi
+\expandafter\ifx\csname urlprefix\endcsname\relax\def\urlprefix{URL }\fi
+\expandafter\ifx\csname href\endcsname\relax
+  \def\href#1#2{#2} \def\path#1{#1}\fi
+
+\bibitem{beier_situ_2012}
+R.~Beier, A, G.~Ewbank,
+  \href{https://igshpa.org/wp-content/uploads/2019/06/In_situ_TRT_report.pdf}{In-{Situ}
+  {Test} {Thermal} {Response} {Tests} {Interpretations}, {OG}\&{E} {Ground}
+  {Source} {Heat} {Exchange} {Study}}, Tech. rep. (Aug. 2012).
+\newline\urlprefix\url{https://igshpa.org/wp-content/uploads/2019/06/In_situ_TRT_report.pdf}
+
+\bibitem{beier_borehole_2013}
+R.~A. Beier, J.~Acuña, P.~Mogensen, B.~Palm,
+  \href{https://ideas.repec.org/a/eee/appene/v102y2013icp665-675.html}{Borehole
+  resistance and vertical temperature profiles in coaxial borehole heat
+  exchangers}, Applied Energy 102~(C) (2013) 665--675.
+\newline\urlprefix\url{https://ideas.repec.org/a/eee/appene/v102y2013icp665-675.html}
+
+\end{thebibliography}
