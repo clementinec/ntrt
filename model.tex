@@ -3,13 +3,39 @@
 	We will be adapting the analytical model from Beier et al., which was developed to predict the thermal response from a CBHE with known geological parameters. This model was developed to adopt undisturbed ground temperature measurement from fiber optic temperature sensors (also referred to as distributed temperature sensor, or DTS). 
 	
 	%Explain the method, and the ADAPTION~ using a different reference temperature profile, also re-wrote the code into Python to be used as a class for different configurations to have its performance estimated and validated(use a plot to show its performance comparison?).
+	Typically, the overall thermal resistance of a geothermal bore can be considered as the combined resistance of the bore and the ground. The bore thermal resistance can be affected by many parameters, including the pipe material, configuration of the heat exchanger as well as the thermal conductivity of the grout/backfill in the bore annulus. The ground resistance is dependent primarily on the thermal conductivity and the diffusivity of the surrounding formation. For a vertical BHE, its thermal resistance is the combined effect of pipe resistance and bore annulus grout resistance. As Kavanaugh and Rafferty pointed out, the terms of pipe and grout resistance can be combined into a single Equation~\ref{eq:Rb}. 
 	
+	\begin{equation}
+		R_b = R_p + R_{grt} = R_{film} + R_{tube} + R_{grt} = 
+		\frac{1}{\pi d_i h_{conv}} \frac{ln(d_o/d_i)}{2\pi k_p} + \frac{ln(d_b/d_o)}{2\pi k_{grt}}\label{Rb}
+	\end{equation}
+	
+	This equation translates the thermal resistance of the pipe to the combination of the pipe resistances and the fluid film resistance inside the pipe wall. For coaxial borehole heat exchanger, this translates to both the film resistance at the inner pipe and the borehole wall, as well as the tube thermal resistance of both the outer and inner pipes. Calculation of the tube thermal resistance is relatively straight forward as the values required includes the diameter of the tubes and the thermal conductivity of it. However, as we are more interested in varying the configuration and insulation level at the borehole as we are showing conceptually in the section of the CBHE, we need to expand the existing definition of the shunt resistance of the borehole heat exchanger. Building on the existing expressions from Kavanaugh and Rafferty (2014) as well as Beier et al. (2012), we have a new expression of the shunt resistance of the borehole $R_{12}$. 
+
+	%shunt resistance R12, refer to the borehole section plot. highlight geothermal gradient usage
+	More specifically, the shunt resistance $R_p$, or sometimes referred to as $R_{12}$ of the CBHE is a parameter that we can modify to achieve different yield from a known location with certain geological condition. 
+	%Our primary goal is to achieve an easy-to-use solution that compares the heat extraction capability of different R12, Rg and Rs.
+	%Config
+	From the schematic diagram, it is evident that any design intervention to change the performance of a CBHE needs to happen at the level that affect the shunt resistance. This expression allows us to evaluate the thermal resistances of CBHEs, we group the contributing variables into two categories: direct and indirect. Direct variables are the diameters of the inner and outer pipes, thermal conductivity of the pipe material, and the thickness and material of the insulation material inside the inner pipe. The flow rate entering the CBHE is the indirect variable, which not only affect the convective heat transfer coefficients contributing to the film thermal resistances. 
+	
+	%Python
+	As we are interested in the possible benefits of designing CBHEs better through different combinations of configurations, we are primarily interested in creating a lightweight algorithm that allows us to compare the expected thermal response outcomes (particularly the thermal resistances or heat extracted) between the different configurations. We therefore adapted the analytical method from Beier et al. (2014) with the following modifications: expanded the shunt resistance expression to allow for extra thermal insulation inside the inner pipe; adopted geothermal gradient into the undisturbed ground temperature during the solving of the target temperature function and translated the original analytical model from MathCAD into Python as a class that allows parallel comparison of the resulting thermal resistance of the boreholes.
+
+
+	%These are the parameters that we are primarily interested in varying when changing the R12
+	\subsubsection{Diameter, insulation level, and flow rates}
+	Diameters, insulation level and flow rates are parameters that we may subjectively alter to modify the performance of borehole heat exchangers.
+	
+	%Depth
+	\subsubsection{Geothermal gradient, thermal conductivity}
+	Geothermal gradient, thermal conductivity, are parameters that varies objectively, but varies significantly enough spatially that could also affect the performance of a CBHE. Understanding the geothermal gradient better may, in particular, help us better understand the importance of having multiple 
 	%Validation of the analytical model
 	
 	%Comparison with the constant ground temperature solution
 		
 	%Thermal resistances. Look at the GTRI report also for a good reference.
 \subsection{Analytical Solution}
+	%How is the analytical solution obtained
 	For each time step, a new analytical solution can be solved along different t, r and ???(What was this other parameter?)
 	
 
