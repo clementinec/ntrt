@@ -1,9 +1,40 @@
-\begin{thebibliography}{1}
+\begin{thebibliography}{10}
 \expandafter\ifx\csname url\endcsname\relax
   \def\url#1{\texttt{#1}}\fi
 \expandafter\ifx\csname urlprefix\endcsname\relax\def\urlprefix{URL }\fi
 \expandafter\ifx\csname href\endcsname\relax
   \def\href#1#2{#2} \def\path#1{#1}\fi
+
+\bibitem{zanchini_improving_2010}
+E.~Zanchini, S.~Lazzari, A.~Priarone, Improving the thermal performance of
+  coaxial borehole heat exchangers, Energy 35~(2) (2010) 657--666.
+
+\bibitem{dijkshoorn_measurements_2013}
+L.~Dijkshoorn, S.~Speer, R.~Pechnig, Measurements and {Design} {Calculations}
+  for a {Deep} {Coaxial} {Borehole} {Heat} {Exchanger} in {Aachen}, {Germany},
+  International Journal of Geophysics 2013 (2013) 1--14.
+
+\bibitem{prandin_exergy_2010}
+M.~Prandin, Exergy {Analysis} at the {Community} {Level}: {Matching} {Supply}
+  and {Demand} of {Heat} and {Electricity} in {Residential} {Buildings}., Ph.D.
+  thesis, Stockholm, Sweden (2010).
+
+\bibitem{rybach_borehole_1992}
+L.~Rybach, W.~J. Eugster, R.~J. Hopkirk, B.~Kaelin, Borehole heat exchangers:
+  longterm operational characteristics of a decentral geothermal heating
+  system, Geothermics 21~(5-6) (1992) 861--867.
+
+\bibitem{acuna_experimental_2008}
+J.~E. ACU{\~N}A, B.~Palm, Experimental {Comparison} of {Four} {Borehole} {Heat}
+  {Exchangers}, Copenhagen, 2008.
+
+\bibitem{ladislaus_rybach_shallow_1995}
+{Ladislaus Rybach}, {Robert J. Hopkirk}, Shallow and deep borehole heat
+  exchangers - achievements and prospects, Florence, Italy, 1995.
+
+\bibitem{holmberg_thermal_2016}
+H.~Holmberg, J.~Acu{\~n}a, E.~N{\ae}ss, O.~K. S{\o}nju, Thermal evaluation of
+  coaxial deep borehole heat exchangers, Renewable Energy 97 (2016) 65--76.
 
 \bibitem{beier_situ_2012}
 R.~Beier, A, G.~Ewbank,
@@ -12,11 +43,56 @@ R.~Beier, A, G.~Ewbank,
   {Source} {Heat} {Exchange} {Study}}, Tech. rep. (Aug. 2012).
 \newline\urlprefix\url{https://igshpa.org/wp-content/uploads/2019/06/In_situ_TRT_report.pdf}
 
+\bibitem{li_synthesis_2014}
+W.~Li, D.~Sadigh, S.~S. Sastry, S.~A. Seshia, Synthesis for
+  {Human}-in-the-{Loop} {Control} {Systems}, Lecture {Notes} in {Computer}
+  {Science}, Springer Berlin Heidelberg, 2014, pp. 470--484.
+
+\bibitem{guillaume_analysis_2011}
+F.~GUILLAUME, Analysis of a novel pipe in pipe coaxial borehole heat exchanger,
+  Ph.D. thesis, KTH Industrial Engineering and Manage, Stockholm, Sweden
+  (2011).
+
+\bibitem{liu_numerical_2019}
+J.~Liu, F.~Wang, W.~Cai, Z.~Wang, Q.~Wei, J.~Deng,
+  \href{https://onlinelibrary.wiley.com/doi/abs/10.1002/er.4357}{Numerical
+  study on the effects of design parameters on the heat transfer performance of
+  coaxial deep borehole heat exchanger}, International Journal of Energy
+  Research\href {http://dx.doi.org/10.1002/er.4357}
+  {\path{doi:10.1002/er.4357}}.
+\newline\urlprefix\url{https://onlinelibrary.wiley.com/doi/abs/10.1002/er.4357}
+
+\bibitem{shrestha_assessment_2018}
+G.~Shrestha, Y.~Uchida, T.~Ishihara, S.~Kaneko, S.~Kuronuma,
+  \href{https://ideas.repec.org/a/gam/jeners/v11y2018i5p1178-d145058.html}{Assessment
+  of the {Installation} {Potential} of a {Ground} {Source} {Heat} {Pump}
+  {System} {Based} on the {Groundwater} {Condition} in the {Aizu} {Basin},
+  {Japan}}, Energies 11~(5) (2018) 1--14.
+\newline\urlprefix\url{https://ideas.repec.org/a/gam/jeners/v11y2018i5p1178-d145058.html}
+
 \bibitem{beier_borehole_2013}
 R.~A. Beier, J.~Acuña, P.~Mogensen, B.~Palm,
   \href{https://ideas.repec.org/a/eee/appene/v102y2013icp665-675.html}{Borehole
   resistance and vertical temperature profiles in coaxial borehole heat
   exchangers}, Applied Energy 102~(C) (2013) 665--675.
 \newline\urlprefix\url{https://ideas.repec.org/a/eee/appene/v102y2013icp665-675.html}
+
+\bibitem{beier2013}
+R.~A. Beier, J.~Acu{\~n}a, P.~Mogensen, B.~Palm, Borehole resistance and
+  vertical temperature profiles in coaxial borehole heat exchangers, Applied
+  Energy 102 (2013) 665 -- 675.
+
+\bibitem{american_society_of_heating_refrigerating_and_air-conditioning_engineers_2013_2013}
+{American Society of Heating, Refrigerating and Air-Conditioning Engineers},
+  2013 {Ashrae} {Handbook}: {Fundamentals}, inch-pound ed. Edition, Atlanta,
+  Ga.: Ashrae, 2013.
+
+\bibitem{ingersoll_heat_1955}
+L.~R. Ingersoll, O.~J. Zobel, A.~C. Ingersoll, Heat conduction with
+  engineering, and other applications, Physics Today 8~(3) (1955) 17--17.
+
+\bibitem{kavanaugh_simulation_1985}
+S.~P. Kavanaugh, Simulation and {Experimental} {Verification} of {Vertical}
+  {Ground}-coupled {Heat} {Pump} {Systems}.
 
 \end{thebibliography}

@@ -1,0 +1,25 @@
+\contentsline {section}{\numberline {1}Introduction}{2}{section.1}
+\contentsline {section}{\numberline {2}Method}{4}{section.2}
+\contentsline {subsection}{\numberline {2.1}Experiment}{4}{subsection.2.1}
+\contentsline {subsubsection}{\numberline {2.1.1}Site and Borehole Heat Exchanger}{4}{subsubsection.2.1.1}
+\contentsline {subsubsection}{\numberline {2.1.2}Experimental Setup}{4}{subsubsection.2.1.2}
+\contentsline {subsection}{\numberline {2.2}Analytical Model}{6}{subsection.2.2}
+\contentsline {subsubsection}{\numberline {2.2.1}Diameter, insulation level, and flow rates}{8}{subsubsection.2.2.1}
+\contentsline {subsubsection}{\numberline {2.2.2}Geothermal gradient and thermal conductivity}{8}{subsubsection.2.2.2}
+\contentsline {subsection}{\numberline {2.3}Analytical Solution}{9}{subsection.2.3}
+\contentsline {subsection}{\numberline {2.4}Validation of adapted model}{9}{subsection.2.4}
+\contentsline {section}{\numberline {3}Results}{10}{section.3}
+\contentsline {subsection}{\numberline {3.1}Validation Results}{10}{subsection.3.1}
+\contentsline {subsection}{\numberline {3.2}Measurements and results from TRT}{10}{subsection.3.2}
+\contentsline {subsection}{\numberline {3.3}Parametric Study of other CBHE configuration}{10}{subsection.3.3}
+\contentsline {subsubsection}{\numberline {3.3.1}Depth}{10}{subsubsection.3.3.1}
+\contentsline {subsubsection}{\numberline {3.3.2}Insulation}{13}{subsubsection.3.3.2}
+\contentsline {subsubsection}{\numberline {3.3.3}Flow rates}{16}{subsubsection.3.3.3}
+\contentsline {subsubsection}{\numberline {3.3.4}Site-specific variables}{17}{subsubsection.3.3.4}
+\contentsline {subsubsection}{\numberline {3.3.5}Geothermal gradient}{17}{subsubsection.3.3.5}
+\contentsline {subsubsection}{\numberline {3.3.6}Soil thermal conductivity}{20}{subsubsection.3.3.6}
+\contentsline {subsubsection}{\numberline {3.3.7}Performance Implications}{21}{subsubsection.3.3.7}
+\contentsline {section}{\numberline {4}Discussion and Further Optimization}{22}{section.4}
+\contentsline {subsection}{\numberline {4.1}Room for improvement}{22}{subsection.4.1}
+\contentsline {subsection}{\numberline {4.2}Cost implications}{24}{subsection.4.2}
+\contentsline {subsection}{\numberline {4.3}Room for further investigations}{24}{subsection.4.3}

@@ -5,8 +5,21 @@
 \BOOKMARK [3][-]{subsubsection.2.1.2}{Experimental Setup}{subsection.2.1}% 5
 \BOOKMARK [2][-]{subsection.2.2}{Analytical Model}{section.2}% 6
 \BOOKMARK [3][-]{subsubsection.2.2.1}{Diameter, insulation level, and flow rates}{subsection.2.2}% 7
-\BOOKMARK [3][-]{subsubsection.2.2.2}{Geothermal gradient, thermal conductivity}{subsection.2.2}% 8
+\BOOKMARK [3][-]{subsubsection.2.2.2}{Geothermal gradient and thermal conductivity}{subsection.2.2}% 8
 \BOOKMARK [2][-]{subsection.2.3}{Analytical Solution}{section.2}% 9
-\BOOKMARK [1][-]{section.3}{Results}{}% 10
-\BOOKMARK [1][-]{section.4}{Discussion and Further Optimization}{}% 11
-\BOOKMARK [2][-]{subsection.4.1}{Optimization}{section.4}% 12
+\BOOKMARK [2][-]{subsection.2.4}{Validation of adapted model}{section.2}% 10
+\BOOKMARK [1][-]{section.3}{Results}{}% 11
+\BOOKMARK [2][-]{subsection.3.1}{Validation Results}{section.3}% 12
+\BOOKMARK [2][-]{subsection.3.2}{Measurements and results from TRT}{section.3}% 13
+\BOOKMARK [2][-]{subsection.3.3}{Parametric Study of other CBHE configuration}{section.3}% 14
+\BOOKMARK [3][-]{subsubsection.3.3.1}{Depth}{subsection.3.3}% 15
+\BOOKMARK [3][-]{subsubsection.3.3.2}{Insulation}{subsection.3.3}% 16
+\BOOKMARK [3][-]{subsubsection.3.3.3}{Flow rates}{subsection.3.3}% 17
+\BOOKMARK [3][-]{subsubsection.3.3.4}{Site-specific variables}{subsection.3.3}% 18
+\BOOKMARK [3][-]{subsubsection.3.3.5}{Geothermal gradient}{subsection.3.3}% 19
+\BOOKMARK [3][-]{subsubsection.3.3.6}{Soil thermal conductivity}{subsection.3.3}% 20
+\BOOKMARK [3][-]{subsubsection.3.3.7}{Performance Implications}{subsection.3.3}% 21
+\BOOKMARK [1][-]{section.4}{Discussion and Further Optimization}{}% 22
+\BOOKMARK [2][-]{subsection.4.1}{Room for improvement}{section.4}% 23
+\BOOKMARK [2][-]{subsection.4.2}{Cost implications}{section.4}% 24
+\BOOKMARK [2][-]{subsection.4.3}{Room for further investigations}{section.4}% 25

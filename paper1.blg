@@ -3,46 +3,110 @@ Capacity: max_strings=100000, hash_size=100000, hash_prime=85009
 The top-level auxiliary file: paper1.aux
 The style file: elsarticle/elsarticle-num.bst
 Database file #1: refs.bib
+Repeated entry---line 135 of file refs.bib
+ : @book{american_society_of_heating_refrigerating_and_air-conditioning_engineers_2013_2013
+ :                                                                                         ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 151 of file refs.bib
+ : @phdthesis{guillaume_analysis_2011
+ :                                   ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 707 of file refs.bib
+ : @article{rybach_borehole_1992
+ :                              ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 724 of file refs.bib
+ : @article{beier2013
+ :                   ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 817 of file refs.bib
+ : @phdthesis{prandin_exergy_2010
+ :                               ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 823 of file refs.bib
+ : @inproceedings{acuna_experimental_2008
+ :                                       ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 848 of file refs.bib
+ : @article{ingersoll_heat_1955
+ :                             ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 858 of file refs.bib
+ : @article{zanchini_improving_2010
+ :                                 ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 885 of file refs.bib
+ : @article{dijkshoorn_measurements_2013
+ :                                      ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 960 of file refs.bib
+ : @inproceedings{ladislaus_rybach_shallow_1995
+ :                                             ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 967 of file refs.bib
+ : @article{kavanaugh_simulation_1985
+ :                                   ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 989 of file refs.bib
+ : @inproceedings{li_synthesis_2014
+ :                                 ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 1011 of file refs.bib
+ : @article{holmberg_thermal_2016
+ :                               ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 1048 of file refs.bib
+ : @article{shrestha_assessment_2018
+ :                                  ,
+I'm skipping whatever remains of this entry
+Warning--empty school in prandin_exergy_2010
+Warning--empty booktitle in acuna_experimental_2008
+Warning--empty pages in acuna_experimental_2008
+Warning--empty booktitle in ladislaus_rybach_shallow_1995
+Warning--empty pages in ladislaus_rybach_shallow_1995
 Warning--empty institution in beier_situ_2012
-You've used 2 entries,
+Warning--empty booktitle in li_synthesis_2014
+Warning--empty publisher in american_society_of_heating_refrigerating_and_air-conditioning_engineers_2013_2013
+Warning--empty journal in kavanaugh_simulation_1985
+You've used 17 entries,
             2937 wiz_defined-function locations,
-            682 strings with 5597 characters,
-and the built_in function-call counts, 638 in all, are:
-= -- 59
-> -- 20
-< -- 0
-+ -- 8
-- -- 6
-* -- 53
-:= -- 111
-add.period$ -- 2
-call.type$ -- 2
-change.case$ -- 3
-chr.to.int$ -- 0
-cite$ -- 3
-duplicate$ -- 20
-empty$ -- 65
-format.name$ -- 8
-if$ -- 151
+            769 strings with 8677 characters,
+and the built_in function-call counts, 4856 in all, are:
+= -- 450
+> -- 169
+< -- 3
++ -- 67
+- -- 50
+* -- 333
+:= -- 685
+add.period$ -- 17
+call.type$ -- 17
+change.case$ -- 19
+chr.to.int$ -- 6
+cite$ -- 26
+duplicate$ -- 159
+empty$ -- 547
+format.name$ -- 63
+if$ -- 1253
 int.to.chr$ -- 0
-int.to.str$ -- 2
-missing$ -- 1
-newline$ -- 16
-num.names$ -- 2
-pop$ -- 14
+int.to.str$ -- 17
+missing$ -- 15
+newline$ -- 63
+num.names$ -- 17
+pop$ -- 123
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 0
-skip$ -- 29
+skip$ -- 309
 stack$ -- 0
-substring$ -- 25
-swap$ -- 4
-text.length$ -- 0
+substring$ -- 207
+swap$ -- 28
+text.length$ -- 1
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 0
-warning$ -- 1
-while$ -- 4
-width$ -- 3
-write$ -- 25
-(There was 1 warning)
+warning$ -- 9
+while$ -- 36
+width$ -- 19
+write$ -- 147
+(There were 14 error messages)
